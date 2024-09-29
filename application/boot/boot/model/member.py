@@ -1,7 +1,7 @@
 from pweb_orm import PwebModel, pweb_orm
 
 
-class Person(PwebModel):
+class Member(PwebModel):
     name = pweb_orm.Column("name", pweb_orm.String(150), nullable=False)
     roll = pweb_orm.Column("roll", pweb_orm.String(50), nullable=False)
     technology = pweb_orm.Column("technology", pweb_orm.String(60), nullable=False)
